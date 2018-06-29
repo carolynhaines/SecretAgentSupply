@@ -214,6 +214,57 @@ header img {
   }
 
 .glasses {
-    display: none;;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+  .hero {
+    height: 15rem;
+  }
+
+  .hero-block {
+    width: 100%;
+    top: 10rem;
+    padding: 0;
+  }
+
+  .header-caps {
+    font-size: 0.77rem;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    padding-left: 2rem;
+  }
+
+  .hero-block h1 {
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .product-grid {
+    justify-content: center;
+  }
+
+  .location-hours {
+    width: 90%;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .footer footer {
+    justify-content: center;
   }
 }
